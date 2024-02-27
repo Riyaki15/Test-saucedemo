@@ -4,7 +4,7 @@ const LoginData = require('../../fixtures/LoginData.json')
 describe('Login', () => {
   beforeEach(() => {
 
-    cy.visit('https://www.saucedemo.com/')
+    cy.visit('https://www.saucedemo.com/v1')
   })
   
   it('Sucess Login with valid data', () => {
