@@ -1,10 +1,10 @@
 class CheckoutClass{
-    checkoutBtn= "[data-test=checkout]"
+    checkoutBtn= "CHECKOUT"
     firstName= "[data-test=firstName]"
     lastName= "[data-test=lastName]"
     postalCode= "[data-test=postalCode]"
-    checkoutBtn2= "[data-test=continue]"
-    finishBtn= "[data-test=finish]"
-    cancelBtn= "[data-test=cancel]"
+    checkoutBtn2= "CONTINUE"
+    finishBtn= "FINISH"
+    cancelBtn= "CANCEL"
 }
 export default new CheckoutClass()

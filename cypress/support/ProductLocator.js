@@ -1,9 +1,11 @@
 class ProductClass
 {
     detailproduct = ".product_sort_container"
-    backpack= "[data-test=add-to-cart-sauce-labs-backpack]"
+    itemBackpack = "Sauce Labs Backpack"
+    backpack= "ADD TO CART"
     cart= ".shopping_cart_link"
-    remove= "[data-test=remove-sauce-labs-backpack]"
-    continue= "[data-test=continue-shopping]"
+    remove= "REMOVE"
+    continue= "Continue Shopping"
+    
 }
 export default new ProductClass()
