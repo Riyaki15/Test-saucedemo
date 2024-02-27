@@ -10,7 +10,7 @@ describe('Checkout', () => {
     cy.visit('https://www.saucedemo.com/')
   })
 
-it('Checkout the product', () => {
+  it('Checkout the product', () => {
     cy.get(LoginClass.user).type(LoginData["username"])
     cy.get(LoginClass.password).type(LoginData["password"])
     cy.get(LoginClass.loginBtn).click()
@@ -70,7 +70,7 @@ it('Checkout the product', () => {
     cy.get(CheckoutClass.checkoutBtn).click()
     cy.get(CheckoutClass.cancelBtn).click()
   })
-  it.only('Cancel Checkout the product in Checkout: Overview', () => {
+  it('Cancel Checkout the product in Checkout: Overview', () => {
     cy.get(LoginClass.user).type(LoginData["username"])
     cy.get(LoginClass.password).type(LoginData["password"])
     cy.get(LoginClass.loginBtn).click()
